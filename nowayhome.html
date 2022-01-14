@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1" />
+    <title>HOME</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+      }
+      #header {
+        background-color: black;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+      #header h1 a {
+        float: left;
+        padding: 11px 0;
+        color: red;
+        text-decoration: none;
+      }
+      #header ul {
+        float: right;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .container:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      #header ul li {
+        display: inline-block;
+      }
+      #header ul li a {
+        display: inline-block;
+        padding: 20px 20px;
+        text-decoration: none;
+        color: red;
+      }
+      #header ul li a:hover {
+        background-color: white;
+        color: black;
+      }
+      #banner {
+        height: 100vh;
+        background-image: url("../ulul/image/nowayhome2.jpg");
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      #konten{
+        background-color: gray;
+      }
+      .kotak {
+        padding: 20px 20px;
+      }
+      .kotak h1 {
+        color: black;
+      }
+      .kotak p {
+        margin-top: 20px;
+      }
+      img {
+        height: 370px;
+        width: 250px;
+        border-radius: 15px;
+        margin-top: 20px;
+      }
+      div.box img:hover {
+        transform: translateY(-5%);
+        transition: 0.7s;
+      }
+      .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      #email {
+        display: flex;
+        padding: 10vh 0;
+      }
+      .gambar {
+        height: 50vh;
+        width: 50vw;
+      }
+      .dalem {
+        margin: auto;
+        color: black;
+        border: none;
+      }
+      div.gambar img {
+       	margin: 0;
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+      }
+      #isi {
+        background: #ffffff;
+        border: 3px solid black;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+      button {
+        padding: 5px 5px;
+        color: white;
+        background-color: black;
+        border-color: snow;
+        border-radius: 5px;
+        margin-left: 15vw;
+      }
+      #footer {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-color: black;
+        color: white;
+      }
+      @media (max-width: 720px) {
+        img {
+          height: 400px;
+          width: 320px;
+        }
+        #banner{
+          height: 85vh;
+        }
+        #email {
+          flex-wrap: wrap;
+        }
+        .gambar {
+          width: 100%;
+          height: 100%;
+          margin-bottom: 50px;
+        }
+        .dalem {
+          margin: 10px 10px;
+        }
+      }
+      iframe{
+        margin-left: 100px;
+      }
+      h4{
+        font-size: 30px;
+        margin-left: 20px;
+      }
+      </style>
+</head>
+  <body>
+    <div id="header">
+    	<div class="container">
+        <h1>
+          <a href="Home.html">Movie App</a>
+        </h1>
+        <ul>
+          <li><a href="btw.html">Best of The Week</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+      <div id="banner">
+      <h1></h1>
+    </div>
+    <div id="konten">
+      <div class="kotak">
+        <h1>Deskripsi</h1>
+        <p>
+          Spider-Man: No Way Home adalah film pahlawan super Amerika Serikat berdasarkan karakter Marvel Comics, Spider-Man, yang diproduksi bersama oleh Columbia Pictures dan Marvel Studios, dan didistribusikan oleh Sony Pictures Releasing. Film ini adalah sekuel Spider-Man: Homecoming (2017) dan Spider-Man: Far From Home (2019), dan merupakan film ke-27 di Marvel Cinematic Universe (MCU). Film ini disutradarai oleh Jon Watts, ditulis oleh Chris McKenna dan Erik Sommers, dan dibintangi oleh Tom Holland, Tobey Maguire, dan Andrew Garfield sebagai Peter Parker / Spider-Man, bersama Zendaya, Jacob Batalon, Marisa Tomei, Jamie Foxx, Benedict Cumberbatch dan Alfred Molina.
+
+Film Spider-Man MCU ketiga telah dibicarakan pada tahun 2017 saat produksi film Homecoming. Pada Agustus 2019, negosiasi antara Sony dan Marvel Studios mengubah kesepakatan mereka—di mana mereka memproduksi film Spider-Man bersama-sama—berakhir dengan Marvel Studios meninggalkan proyek tersebut. Namun, reaksi negatif dari penggemar menghasilkan kesepakatan baru antara kedua perusahaan sebulan kemudian. Watts, McKenna, Sommers, dan Holland diumumkan kembali pada waktu yang sama. Syuting dimulai pada Oktober 2020 di Kota New York, sebelum pindah ke Atlanta pada akhir bulan. Selama pembuatan film, Foxx dan Molina diumumkan tampil di film, mengulangi karakter dari film Spider-Man sebelumnya. Judulnya terungkap pada Februari 2021. Syuting juga dilakukan di Los Angeles dan Islandia, dan selesai pada pertengahan Maret 2021.
+        </p>
+      </div>
+      <div class="trailer">
+        <h4>Trailer</h4>
+        <div id="video">
+          <iframe width="917" height="516" src="https://www.youtube.com/embed/JfVOs4VSpmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="kotak">
+        <h1>Film Lainnya</h1>
+        <div class="box">
+         <a href="doktorstrange.html"><img src="../ulul/image/doktorstrange.jpg" alt="" /></a>
+         <a href="milesmorales.html"><img src="../ulul/image/milesmorales.jpg" alt="" /></a>
+         <a href="shangchi.html"><img src="../ulul/image/shangchi.jpg" alt="" /></a>
+         <a href="endgame.html"><img src="../ulul/image/endgame.jpg" alt="" /></a>
+       </div>
+       <div id="footer">
+      <h5 align="center">copyright by nusantech 2021</h5>
+    </div>
+  </body>
+</html>

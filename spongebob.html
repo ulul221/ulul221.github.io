@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1" />
+    <title>HOME</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+      }
+      #header {
+        background-color: black;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+      #header h1 a {
+        float: left;
+        padding: 11px 0;
+        color: red;
+        text-decoration: none;
+      }
+      #header ul {
+        float: right;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .container:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      #header ul li {
+        display: inline-block;
+      }
+      #header ul li a {
+        display: inline-block;
+        padding: 20px 20px;
+        text-decoration: none;
+        color: red;
+      }
+      #header ul li a:hover {
+        background-color: white;
+        color: black;
+      }
+      #banner {
+        height: 100vh;
+        background-image: url("../ulul/image/spongebob2.jpg");
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      #konten{
+        background-color: gray;
+      }
+      .kotak {
+        padding: 20px 20px;
+      }
+      .kotak h1 {
+        color: black;
+      }
+      .kotak p {
+        margin-top: 20px;
+      }
+      img {
+        height: 370px;
+        width: 250px;
+        border-radius: 15px;
+        margin-top: 20px;
+      }
+      div.box img:hover {
+        transform: translateY(-5%);
+        transition: 0.7s;
+      }
+      .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      #email {
+        display: flex;
+        padding: 10vh 0;
+      }
+      .gambar {
+        height: 50vh;
+        width: 50vw;
+      }
+      .dalem {
+        margin: auto;
+        color: black;
+        border: none;
+      }
+      div.gambar img {
+       	margin: 0;
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+      }
+      #isi {
+        background: #ffffff;
+        border: 3px solid black;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+      button {
+        padding: 5px 5px;
+        color: white;
+        background-color: black;
+        border-color: snow;
+        border-radius: 5px;
+        margin-left: 15vw;
+      }
+      #footer {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-color: black;
+        color: white;
+      }
+      @media (max-width: 720px) {
+        img {
+          height: 400px;
+          width: 320px;
+        }
+        #banner{
+          height: 85vh;
+        }
+        #email {
+          flex-wrap: wrap;
+        }
+        .gambar {
+          width: 100%;
+          height: 100%;
+          margin-bottom: 50px;
+        }
+        .dalem {
+          margin: 10px 10px;
+        }
+      }
+      iframe{
+        margin-left: 100px;
+      }
+      h4{
+        font-size: 30px;
+        margin-left: 20px;
+      }
+      </style>
+</head>
+  <body>
+    <div id="header">
+    	<div class="container">
+        <h1>
+          <a href="Home.html">Movie App</a>
+        </h1>
+        <ul>
+          <li><a href="btw.html">Best of The Week</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+      <div id="banner">
+      <h1></h1>
+    </div>
+    <div id="konten">
+      <div class="kotak">
+        <h1>Deskripsi</h1>
+        <p>
+          The SpongeBob SquarePants Movie adalah sebuah film animasi berdasarkan acara TV hit Nickelodeon SpongeBob SquarePants. Film ini diproduksi dan disutradarai pembuat seri Stephen Hillenburg, serta dibintangi pengisi suara seri Tom Kenny, Bill Fagerbakke, Clancy Brown, Rodger Bumpass, dan Mr. Lawrence, dan bintang tamu Scarlett Johansson, Jeffrey Tambor, Alec Baldwin, dan David Hasselhoff. Film ini diproduksi Nickelodeon Movies, dalam asosiasi dengan perusahaan Stephen Hillenburg United Plankton Pictures, dan didistribusikan oleh Paramount Pictures. Film ini bercerita Plankton mencuri mahkota Raja Neptunus dan menyalahkan Tuan Krabs. SpongeBob dan Patrick harus mengembalikan mahkota itu dari Shell City untuk menyelamatkan Tuan Krabs dan Bikini Bottom.
+
+Selama lebih dari satu tahun, Stephen Hillenburg diminta membuat film berdasarkan seri tetapi ditolak. Ketika film diproduksi, Stephen Hillenburg menghentikan produksi seri setelah musim ketiga selesai diproduksi. Tim penulis terdiri dari Stephen Hillenburg, Derek Drymon, Paul Tibbitt, Aaron Springer, Tim Hill, dan Kent Osborne. Aslinya film ini akan menjadi akhir seri, tetapi Nickelodeon ingin lebih banyak episode, jadi Paul Tibbitt menggantikan posisi Stephen Hillenburg dan memproduksi musim keempat. Ketika film diproduksi, Jules Engel, mentor Hillenburg di California Institute of the Arts, meninggal; film ini pun didedikasikan kepadanya.
+
+Film ini sangat sukses, menghasilkan $140 juta dan mendapat ulasan positif dari kritikus. Sekuelnya diumumkan pada 2012 dan ditayangkan pada 13 Februari 2015.
+      </div>
+      <div class="trailer">
+        <h4>Trailer</h4>
+        <div id="video">
+          <iframe width="917" height="516" src="https://www.youtube.com/embed/mHr8QldUMMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="kotak">
+        <h1>Film Lainnya</h1>
+        <div class="box">
+         <a href="nowayhome.html"><img src="../ulul/image/nowayhome.jpg" alt="" /></a>
+         <a href="milesmorales.html"><img src="../ulul/image/milesmorales.jpg" alt="" /></a>
+         <a href="shangchi.html"><img src="../ulul/image/shangchi.jpg" alt="" /></a>
+         <a href="doktorstrange.html"><img src="../ulul/image/doktorstrange.jpg" alt="" /></a>
+       </div>
+       <div id="footer">
+      <h5 align="center">copyright by nusantech 2021</h5>
+    </div>
+  </body>
+</html>
